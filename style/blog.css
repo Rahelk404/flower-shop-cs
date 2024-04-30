@@ -11,22 +11,31 @@
    /* BUTTON Section */
 
    .primary-button {
-       border-radius: 8px;
-       background: #E55473;
+    border-radius: 8px;
+   background: #E55473;
+   color: white;
+   border:none;
+   padding: 20px 35px;
+   margin-top: 32px;
+   }
+
+   a {
+       text-decoration: none;
        color: white;
-       border:none;
-       padding: 20px 35px;
-       margin-top: 32px;
+   }
+
+   a:hover {
+       color: bisque;
    }
 
    /* PARAGRAPH STYLE */
    p {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
+       color: rgba(39, 39, 39, 0.60);
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 30px;
+   }
 
 
    /* HEADER SECTION STYLE */
@@ -54,5 +63,3 @@
        font-weight: 800;
        line-height: normal;
    }
-
-   
