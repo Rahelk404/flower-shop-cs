@@ -1,0 +1,58 @@
+   /* FONT SECTION STYLE */
+
+   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+   * {
+       margin: 0;
+       padding: 0;
+       font-family: "Lato", sans-serif;
+   }
+
+   /* BUTTON Section */
+
+   .primary-button {
+       border-radius: 8px;
+       background: #E55473;
+       color: white;
+       border:none;
+       padding: 20px 35px;
+       margin-top: 32px;
+   }
+
+   /* PARAGRAPH STYLE */
+   p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+   /* HEADER SECTION STYLE */
+   header {
+       background: rgba(229, 84, 115, 0.10);
+   }
+
+   .container {
+       width: 75%;
+       max-width: 1440px;
+       margin: 0 auto;
+   }
+
+   .banner {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+
+
+   .bannner-head {
+       color: #272727;
+       font-size: 80px;
+       font-style: normal;
+       font-weight: 800;
+       line-height: normal;
+   }
+
+   
