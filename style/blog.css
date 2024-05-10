@@ -1,78 +1,83 @@
-   /* FONT SECTION STYLE */
+/* Google Fonts Link */
 
-   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-   * {
-       margin: 0;
-       padding: 0;
-       font-family: "Lato", sans-serif;
-   }
+/* All command */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+}
 
-   /* BUTTON Section */
+/* paragraph style */
 
-   .primary-button {
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+/* button style */
+
+.button-h {
     border-radius: 8px;
-   background: #E55473;
-   color: white;
-   border:none;
-   padding: 20px 35px;
-   margin-top: 32px;
-   }
+    background: #E55473;
+    border: none;
+    padding: 23px 35px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-   a {
-       text-decoration: none;
-       color: white;
-   }
+button > a{
+    text-decoration: none;
+    color: #FFF;
+}
 
-   a:hover {
-       color: bisque;
-   }
+/* Headar part */
 
-   /* PARAGRAPH STYLE */
-   p {
-       color: rgba(39, 39, 39, 0.60);
-       font-size: 18px;
-       font-style: normal;
-       font-weight: 400;
-       line-height: 30px;
-   }
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
 
+/* Container box */
 
-   /* HEADER SECTION STYLE */
-   header {
-       background: rgba(229, 84, 115, 0.10);
-   }
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
-   .container {
-       width: 75%;
-       max-width: 1440px;
-       margin: 0 auto;
-   }
+.topper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    .banner > h1 , p , button , img{
-        margin-top: 32px;
-        max-width: 525px;
-    }
+.container h1{
+        color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 
-   .banner{
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-   }
+.container-text *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
 
+/* container image */
 
-   .bannner-head {
-       color: #272727;
-       font-size: 80px;
-       font-style: normal;
-       font-weight: 800;
-       line-height: normal;
-   }
-
-
-   /* BANNER IMAGE STYLE */
-
-.banner .banner-img{
+.container .container-img img{
     width: 100%;
     vertical-align: middle;
 }
