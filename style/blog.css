@@ -28,12 +28,17 @@ button {
     background: #E55473;
     border: none;
     padding: 23px 35px;
-    
     font-family: Lato;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover{
+    background: #a51b35;
 }
 
 button > a{
@@ -50,13 +55,13 @@ header {
 
 /* Container Main Part */
 
-.container {
+.container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.container {
+.container-prb{
     max-width: 1440px;
     margin: 0 auto;
     width: 75%;
@@ -64,7 +69,7 @@ header {
 
 /* Container style */
 
-.container .container-text>h1 {
+ .container-text > h1 {
     color: #272727;
     font-family: Lato;
     font-size: 60px;
@@ -73,7 +78,7 @@ header {
     line-height: normal;
 }
 
-.container-text *{
+.container .container-text *{
     max-width: 531px;
     margin-bottom: 32px;
 }
