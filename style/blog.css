@@ -2,12 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* All Style Part */
-
+/*  */
+/* generalised style */
+/*  */
 * {
     margin: 0;
     padding: 0;
     font-family: 'lato', sans-serif;
+}
+
+/* container generalised part */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 75%;
 }
 
 /* Paragraph style part */
@@ -37,13 +45,32 @@ button {
     transition: all 1s;
 }
 
-button:hover{
+button:hover {
     background: #a51b35;
 }
 
-button > a{
+button>a {
     text-decoration: none;
     color: #FFF;
+}
+
+/* Section Style (generalised style) */
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
 }
 
 
@@ -55,21 +82,16 @@ header {
 
 /* Container Main Part */
 
-.container{
+.container-prb {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.container-prb{
-    max-width: 1440px;
-    margin: 0 auto;
-    width: 75%;
-}
 
 /* Container style */
 
- .container-text > h1 {
+.container-text>h1 {
     color: #272727;
     font-family: Lato;
     font-size: 60px;
@@ -78,14 +100,65 @@ header {
     line-height: normal;
 }
 
-.container .container-text *{
+.container .container-text * {
     max-width: 531px;
     margin-bottom: 32px;
 }
 
 /* Container Image style */
 
-.container-img img{
+.container-img img {
     width: 100%;
     vertical-align: middle;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.section-content .flower .flower-img {
+    border-radius: 300px 300px 0 0;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px 30px 0px;
+    height: 500px;
+    align-items: end;
+    display: flex;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+/* Flower Background Colour */
+
+.section-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .gray {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+.section-content .flower p {
+    color: #272727;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
 }
