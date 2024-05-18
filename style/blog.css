@@ -162,3 +162,41 @@ header {
     /* 145.833% */
     text-decoration-line: underline;
 }
+
+/* delivery man section */
+
+.section-main {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    max-width: 1440px;
+    /* height: 340px; */
+    margin: 20px auto;
+    margin-bottom: 150px;
+}
+
+
+
+.section-main .section-main-item {
+    padding: 60px 120px;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+}
+
+.section-main .section-main-item p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    /* 145.833% */
+}
+
+.section-main .section-main-item .section-img img{
+    margin-bottom: 20px;
+    max-width: 88px;
+    height: 88px;
+}
