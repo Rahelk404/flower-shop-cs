@@ -246,6 +246,7 @@ header,
     margin: 0 auto;
     width: 100%;
     align-items: center;
+    display: flex;
 }
 .ig-banner-head .section-heading h2{
     color: #272727;
@@ -259,7 +260,7 @@ header,
 }
 
 .ig-banner-head .ig-banner-img {
-    display: flex;
+    
     align-items: center;
     justify-content: space-between;
     gap: 24px;
